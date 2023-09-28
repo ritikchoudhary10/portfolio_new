@@ -659,9 +659,7 @@ section{
   }
 }
 @media (max-width:462px){
-  .header{
-    width: 95vw;
-  }
+  
   .home-content h1{
     font-size: 5.2rem;
 
