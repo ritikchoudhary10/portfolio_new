@@ -471,9 +471,9 @@ section{
   position: relative;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+ 
   flex-direction: column;
-  width: 50rem;
+  width: auto;
   border-left: .2rem solid var(--main-color);
   padding-left: 3rem;
 
@@ -669,6 +669,12 @@ section{
   }
   .contact form .input-box .input-field {
     width: 100%;
+  }
+  .projects{
+    padding: 10rem 4% 5rem 5%;
+  }
+  .projects .project-box h3{
+    font-size:2rem;
   }
 }
 @media (max-width:371px){
