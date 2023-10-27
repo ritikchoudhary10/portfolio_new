@@ -483,6 +483,7 @@ section{
 .skills-container p {
   text-align: center;
   font-size: 1.8rem;
+  color: var(--main-color);
 }
 
 .projects{
