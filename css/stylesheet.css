@@ -201,9 +201,8 @@ section{
 }
 
 .home-sci{
-  position: absolute;
-  bottom: 4rem;
-  margin-top: 1rem;
+  
+  margin-top: 6rem;
   width: 200px;
   display: flex;
   justify-content: space-between;
@@ -774,10 +773,12 @@ section:nth-child(odd) .animate.scroll{
 @media (max-width:371px){
   .home{
     justify-content: center;
+    font-size: 4.8rem;
 
   }
 
   .home-content{
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -786,7 +787,11 @@ section:nth-child(odd) .animate.scroll{
   }
 
   .home-content h1{
+    margin-top: 9rem;
     font-size:5rem ;
+  }
+  .skills{
+    height: auto;
   }
 }
 
