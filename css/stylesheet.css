@@ -100,11 +100,11 @@ section{
   font-weight: 700;
  
 }
-.home-content .text-animate{
+ .text-animate{
   position: relative;
   width: 24rem; 
 }
-.home-content .text-animate h3{
+ .text-animate h3{
   font-size: 2.2rem;
   font-weight: 700;
   padding: .2px;
@@ -149,17 +149,18 @@ section{
   padding: .2rem;
   display: flex;
   justify-content:space-between ;
-  width: 25rem;
+  width: 30rem;
   height: 4rem;
 
 }
 
 .btn-box .btn{
   position: relative;
+  padding: 0 .5rem ;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
+  width: auto;
   height: 100%;
   background-color: var(--main-color);
   border: .2rem solid var(--main-color) ;
@@ -296,6 +297,10 @@ section{
 }
 
 .about-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   text-align: center;
 }
 .about-content h3{
@@ -658,6 +663,19 @@ section:nth-child(odd) .animate.scroll{
   width: 0;
 }
 
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  background-color: var(--second-bg-color);
+}
+
+
+
+
 /* BREAKPOINTS */
 
 @media (max-width:1200px) {
@@ -795,6 +813,7 @@ section:nth-child(odd) .animate.scroll{
   }
 }
 @media (max-width:380px){
+
   .home{
     justify-content: center;
     font-size: 4.8rem;
@@ -811,8 +830,8 @@ section:nth-child(odd) .animate.scroll{
   }
 
   .home-content h1{
-    margin-top: 9rem;
-    font-size:5rem ;
+    margin-top: 6rem;
+    font-size:4rem ;
   }
   .skills{
     height: auto;
