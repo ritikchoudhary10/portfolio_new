@@ -315,7 +315,7 @@ section{
 .btns{
   position: relative;
   display: inline-block;
-  width: 15rem;
+  width: auto;
   height: 3rem;
 }
 .btn-box.btns a::before{
